@@ -24,44 +24,29 @@ El principal objetivo del proyecto es responder a una serie de preguntas clave p
 
 Objetivos de Data Science:
 
-Explorar y analizar la información para comprender cómo se estructura el dataset de los vídeos de contenido en tendencia en Youtube (Francia).
+1. Explorar y analizar la información para comprender cómo se estructura el dataset de los vídeos de contenido en tendencia en Youtube (Francia).
 
-Encontrar patrones en la actitud de los usuarios más o menos fuertes ante variables como vistas, likes, dislikes, comentarios, fechas y la región.
+2. Encontrar patrones en la actitud de los usuarios más o menos fuertes ante variables como vistas, likes, dislikes, comentarios, fechas y la región.
 
-Valorar la comunidad de los vídeos de forma general y, por categorías, por canales y por estados, a través de métricas como la comunidad, la proporción de likes/dislikes y la frecuencia de aparición.
+3. Valorar la comunidad de los vídeos de forma general y, por categorías, por canales y por estados, a través de métricas como la comunidad, la proporción de likes/dislikes y la frecuencia de aparición.
 
-Identificar relaciones significativas entre variables como vistas y comentarios y likes y dislikes, a través de análisis de correlación.
-Construir variables adjuntas que permitan representar de forma mejor el rendimiento y la comunidad de los usuarios respecto a los vídeos (por ejemplo, engagement_rate, like_ratio).
+4. Identificar relaciones significativas entre variables como vistas y comentarios y likes y dislikes, a través de análisis de correlación.
+   
+5. Construir variables adjuntas que permitan representar de forma mejor el rendimiento y la comunidad de los usuarios respecto a los vídeos (por ejemplo, engagement_rate, like_ratio).
 
-Desarrollar técnicas de agrupamiento (clustering) para agrupar vídeos con características similares que permitan hacer análisis comparativos.
+6. Desarrollar técnicas de agrupamiento (clustering) para agrupar vídeos con características similares que permitan hacer análisis comparativos.
 
-Diseñar un modelo predictivo para estimar el número de vistas y/o la cantidad de me gusta de un vídeo a partir de sus características observadas, valorando la capacidad del modelo para ajustarse a la realidad.
+7. Diseñar un modelo predictivo para estimar el número de vistas y/o la cantidad de me gusta de un vídeo a partir de sus características observadas, valorando la capacidad del modelo para ajustarse a la realidad.
 
-Proyectar recomendaciones a partir de los hallazgos obtenidos para tomar decisiones de marketing, de contenidos y de planificación estratégica del cliente.
+8. Proyectar recomendaciones a partir de los hallazgos obtenidos para tomar decisiones de marketing, de contenidos y de planificación estratégica del cliente.
 
 ## DATASET
-El dataset principal (FRvideos_cc50_202101.csv) contiene 21 columnas y más de 40,000 registros. 
-El archivo JSON contiene pares id - title para mapear correctamente las categorías de los videos.
+El dataset principal (FRvideos_cc50_202101.csv) contiene 21 columnas y más de 40,000 registros.
+![image](https://github.com/user-attachments/assets/3a7ee031-61a8-4c57-8d7b-a6778290db84)
 
-Columna	Tipo de dato	Descripción
-video_id	object	ID único del video
-trending_date	datetime	Fecha en que el video fue tendencia
-title	object	Título del video
-channel_title	object	Canal que publicó el video
-category_id	int64	ID de la categoría del video
-publish_time	datetime	Fecha y hora de publicación
-tags	object	Etiquetas asociadas al video
-views	int64	Número de visualizaciones
-likes	int64	Número de me gusta
-dislikes	int64	Número de no me gusta
-comment_count	int64	Número de comentarios
-comments_disabled	bool	Si los comentarios están deshabilitados
-ratings_disabled	bool	Si los ratings (likes/dislikes) están deshabilitados
-video_error_or_removed	bool	Si el video tiene errores o fue eliminado
-description	object	Descripción del video
-state	object	Región geográfica
-lat / lon	float64	Coordenadas geográficas
-geometry	object	Geometría asociada a coordenadas
+El archivo JSON contiene pares id - title para mapear correctamente las categorías de los videos.
+![image](https://github.com/user-attachments/assets/59f7f96d-5e20-42e1-a1dd-b7b77aa971f5)
+
 
 ## CONCLUSIONES 
 
